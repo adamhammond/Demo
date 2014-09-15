@@ -37,7 +37,8 @@ namespace LightsOut
                     grid[r, c] = true;
 
             // Default to 3x3 grid
-            x3ToolStripMenuItem.Checked = false;
+            //x3ToolStripMenuItem.Checked = false;
+            StartNewGame();
         }
 
         private void StartNewGame()
